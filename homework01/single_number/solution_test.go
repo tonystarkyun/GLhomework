@@ -31,6 +31,7 @@ func TestSingleNumber(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		tt := tt // 复制一份当前用例，给闭包安全捕获，如果tt是引用类型，则闭包中会修改原始值
 		t.Run(tt.name, func(t *testing.T) {
 			got := SingleNumber(tt.nums)
 			if got != tt.want {
