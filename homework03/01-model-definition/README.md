@@ -20,12 +20,12 @@
 
 ## 测试命令
 ```bash
-cd /mnt/hgfs/GL/lesson-03/homework03/01-model-definition
-GOTOOLCHAIN=go1.24.11 go test -v ./...
+01-model-definition 目录下执行
+go test -v ./...
 ```
 
 ## 运行命令
 ```bash
-cd /mnt/hgfs/GL/lesson-03/homework03/01-model-definition
-GOTOOLCHAIN=go1.24.11 go run .
+01-model-definition 目录下执行
+go run .
 ```

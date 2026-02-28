@@ -23,12 +23,12 @@
 
 ## 测试命令
 ```bash
-cd /mnt/hgfs/GL/lesson-03/homework03/02-association-query
-GOTOOLCHAIN=go1.24.11 go test -v ./...
+在02-association-query目录下执行
+go test -v ./...
 ```
 
 ## 运行命令
 ```bash
-cd /mnt/hgfs/GL/lesson-03/homework03/02-association-query
-GOTOOLCHAIN=go1.24.11 go run .
+在02-association-query目录下执行
+go run .
 ```
